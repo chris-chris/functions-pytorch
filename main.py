@@ -1,8 +1,7 @@
-import torch
-PATH = "model.pth"
+# PATH = "model.pth"
 
 
-class TranslateModel():
+class TranslateModel:
     def predict(message):
         return message + " translated"
 
